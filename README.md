@@ -201,7 +201,7 @@ run();
 
 ![](./public/5.png)
 
-ưu tập lệnh này dưới dạng index.js và chạy nó qua lệnh node index.js.
+Lưu tập lệnh này dưới dạng index.js và chạy nó qua lệnh node index.js.
 
 Nếu mọi thứ được thiết lập đúng cách, các bí mật của bạn sẽ được in trên màn hình của bạn. Ngoài các bí mật của bạn, bạn cũng sẽ thấy lỗi khi xóa bí mật. Điều này xác nhận rằng AppRole của chúng ta chỉ có quyền truy cập đọc bí mật và không có quyền xóa.
 
