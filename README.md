@@ -187,19 +187,19 @@ const run = async () => {
   const username = data.data.username;
   const password = data.data.password;
 
+  console.log("📌 Secret retrieved:");
   console.log({
     databaseName,
     username,
     password,
   });
-
-  console.log("Attempt to delete the secret");
-
-  await vault.delete("secret/data/mysql/webapp"); 
 };
 
 run();
+
 ```
+
+![](./public/5.png)
 
 ưu tập lệnh này dưới dạng index.js và chạy nó qua lệnh node index.js.
 
